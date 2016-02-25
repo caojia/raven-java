@@ -8,7 +8,7 @@
         <version>6.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>raven-logback</artifactId>
+    <artifactId>raven-scala-logback</artifactId>
     <packaging>jar</packaging>
 
     <name>Raven-Java for Logback</name>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>raven</artifactId>
+            <artifactId>raven-scala</artifactId>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -68,7 +68,7 @@
         <!-- Raven Test-jar does not provide test dependencies transitively -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>raven</artifactId>
+            <artifactId>raven-scala</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>

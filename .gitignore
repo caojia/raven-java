@@ -2,3 +2,5 @@ target/
 docs/_build
 *.iml
 .idea/
+*.releaseBackup
+release.properties

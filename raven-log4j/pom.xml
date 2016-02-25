@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>raven</artifactId>
+            <artifactId>raven-scala</artifactId>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -59,7 +59,7 @@
         <!-- Raven Test-jar does not provide test dependencies transitively -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>raven</artifactId>
+            <artifactId>raven-scala</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>

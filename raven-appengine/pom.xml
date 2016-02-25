@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>raven</artifactId>
+            <artifactId>raven-scala</artifactId>
         </dependency>
         <dependency>
             <groupId>com.google.appengine</groupId>
