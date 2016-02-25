@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>net.kencochrane.raven</groupId>
-        <artifactId>raven-all</artifactId>
+        <artifactId>raven-scala-all</artifactId>
         <version>6.0.1-SNAPSHOT</version>
     </parent>
 

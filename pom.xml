@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.kencochrane.raven</groupId>
-    <artifactId>raven-all</artifactId>
+    <artifactId>raven-scala-all</artifactId>
     <version>6.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -60,10 +60,10 @@
     </prerequisites>
 
     <modules>
-        <module>raven</module>
+        <module>raven-scala</module>
         <module>raven-appengine</module>
         <module>raven-log4j</module>
-        <module>raven-logback</module>
+        <module>raven-scala-logback</module>
         <module>raven-log4j2</module>
         <module>sentry-stub</module>
     </modules>
