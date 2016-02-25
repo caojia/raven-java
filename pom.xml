@@ -4,7 +4,7 @@
 
     <groupId>net.kencochrane.raven</groupId>
     <artifactId>raven-all</artifactId>
-    <version>6.0.2-SNAPSHOT</version>
+    <version>6.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Raven-Java</name>
