@@ -264,7 +264,7 @@ public class SentryAppender extends AppenderBase<ILoggingEvent> {
             packageNameSimpleName[0] = exceptionPackage != null ? exceptionPackage.getName()
                     : SentryException.DEFAULT_PACKAGE_NAME;
             packageNameSimpleName[1] = exceptionClass.getSimpleName();
-        } catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException | InternalError e) {
             int lastDot = canonicalClassName.lastIndexOf('.');
             if (lastDot != -1) {
                 packageNameSimpleName[0] = canonicalClassName.substring(0, lastDot);
