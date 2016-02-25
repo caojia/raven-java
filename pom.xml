@@ -69,11 +69,11 @@
     </modules>
 
     <distributionManagement>
-        <repository>
+        <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Repository</name>
             <url>http://artifactory.lain.bdp.cc/artifactory/ext-snapshot-local</url>
-        </repository>
+        </snapshotRepository>
     </distributionManagement>
 
     <scm>
